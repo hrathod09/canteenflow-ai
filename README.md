@@ -1,4 +1,4 @@
-# Smart Canteen
+# CanteenFlow AI
 
 An intelligent canteen management system built for the hackathon.
 
@@ -7,9 +7,26 @@ An intelligent canteen management system built for the hackathon.
 - Digital Menu
 - Food Ordering
 - Order Queue Management
-- Analytics
+- Sales Analytics
 - Demand Prediction
 
 ## Backend
 
-The backend is built using Python and AWS Lambda.
+The backend uses Python and AWS Lambda.
+
+## Project Structure
+
+```text
+backend/
+├── lambda/
+│   ├── menu/
+│   │   └── handler.py
+│   ├── orders/
+│   │   └── handler.py
+│   ├── queue/
+│   │   └── handler.py
+│   ├── analytics/
+│   │   └── handler.py
+│   └── prediction/
+│       └── handler.py
+└── requirements.txt

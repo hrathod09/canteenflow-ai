@@ -1,6 +1,21 @@
+# Python
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
+
+# Virtual environments
 venv/
+.venv/
+
+# Environment variables
 .env
+.env.*
+
+# VS Code
 .vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS
+.aws/
